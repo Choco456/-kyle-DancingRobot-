@@ -1,0 +1,403 @@
+<style>
+.stage {
+    top: 150px;
+    font-size: 40px;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    width: 90%;
+    height: 800px;
+    background: lightblue;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wholebody {
+    background: lightblue;
+
+    /* To hide uncomment this*/
+    /* background: #ddd; */
+
+    margin-left: 400px;
+    margin-top: -20px;
+    width: 240px;
+    height: 400px;
+    margin-top: 160px;
+    animation: geeks 30s;
+    animation-iteration-count: 1;
+
+
+}
+
+@keyframes geeks {
+    0% {
+        margin-left: 50%;
+
+    }
+
+    4.1% {
+        margin-left: 25%;
+
+    }
+
+    8.2% {
+        margin-right: 25%;
+
+
+    }
+
+    12.3% {
+        margin-right: 25%;
+
+    }
+
+    16.4% {
+        margin-left: 50%;
+
+    }
+
+    20.5% {
+        margin-right: 50%;
+
+    }
+
+    24.6% {
+        margin-left: 50%;
+
+    }
+
+    28.7% {
+        margin-right: 25%;
+
+    }
+
+    32.8% {
+        margin-left: 50%;
+    }
+
+    36.9% {
+
+        margin-right: 50%;
+    }
+
+    39.7% {
+        margin-left: 50%;
+
+    }
+
+    40.7% {
+
+        margin-right: 50%;
+    }
+
+    42.5% {
+
+        margin-right: 50%;
+
+    }
+
+    43.6% {
+
+        margin-left: 50%;
+    }
+
+
+    45% {
+        margin-right: 50%;
+
+
+
+    }
+
+
+    47.6% {
+        margin-right: 50%;
+        margin-left: 50%;
+
+
+
+
+    }
+
+
+
+    49.7% {
+        margin-right: 25%;
+        margin-left: 25%;
+
+
+
+
+
+    }
+
+    50% {
+
+        margin-left: 50%;
+
+
+
+
+
+    }
+
+
+
+    54% {
+        margin-left: 25%;
+
+
+
+    }
+
+    58% {
+
+
+        margin-right: 25%;
+
+    }
+
+
+    64% {
+
+        margin-right: 50%;
+
+
+
+    }
+
+    68% {
+
+        margin-left: 50%;
+    }
+
+
+    72% {
+
+        margin-right: 25%;
+
+    }
+
+    76% {
+        margin-left: 50%;
+
+
+    }
+
+    80% {
+        margin-right: 50%;
+    }
+
+    84% {
+        margin-right: 25%;
+
+    }
+
+    88% {
+        margin-left: 25%;
+    }
+
+    92% {
+        margin-right: 60%;
+
+    }
+
+
+    96% {
+        margin-left: 25%;
+
+    }
+
+    100% {
+        margin-right: 50%;
+
+
+    }
+
+
+
+}
+
+.head {
+    background: grey;
+    width: 50%;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+
+
+
+}
+
+
+.body {
+    background: white;
+    width: 50%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    display: inline-block;
+
+
+
+}
+
+.Left-hand {
+    display: inline-block;
+    background: black;
+    width: 30px;
+    height: 150px;
+    border-radius: 10%;
+    animation: lefthand 5s;
+    animation-iteration-count: 1;
+    animation-delay: 22s;
+
+}
+
+.Right-hand {
+    display: inline-block;
+    background: black;
+    width: 30px;
+    height: 150px;
+    border-radius: 10%;
+    animation: Righthand 6s;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+    
+
+    
+    
+ 
+}
+
+ 
+@keyframes lefthand {
+
+
+    0% {
+        rotate: 0;
+
+    }
+
+    20% {
+        rotate: 0;
+    }
+
+    30% {
+        rotate: 0;
+    }
+
+    40% {
+        transform: rotate(120deg);
+        transform-origin: 100% 0%;
+
+
+
+    }
+
+    60% {
+        rotate: 0;
+
+    }
+
+    70% {
+        rotate: 0;
+    }
+
+    90% {
+        rotate: 0;
+    }
+
+
+    100% {
+        rotate: 0;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+@keyframes Righthand {
+
+
+    0% {
+        rotate: 0;
+
+    }
+
+    20% {
+        rotate: 0;
+    }
+
+    30% {
+        rotate: 0;
+    }
+
+    50.7% {
+
+        transform: rotate(200deg);
+        transform: rotate(300deg);
+        transform-origin: 0 0;
+
+    }
+
+    60% {
+        rotate: 0;
+    }
+
+    70% {
+        rotate: 0;
+    }
+
+    
+
+    80% {
+        rotate: 0;
+    }
+
+    100% {
+        rotate: 0;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.Stump {
+    display: inline-block;
+    background: gray;
+    width: 150px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+
+
+
+
+
+
+}
+</style>
