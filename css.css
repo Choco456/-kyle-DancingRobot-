@@ -223,7 +223,7 @@
 }
 
 .head {
-    background: grey;
+    background-image: url(/photo2.png);
     width: 50%;
     height: 60px;
     margin-top: 10px;
@@ -237,7 +237,8 @@
 
 
 .body {
-    background: white;
+    background-image: url(/Spotify_App_Logo.jpg);
+    background-size: cover;
     width: 50%;
     height: 200px;
     margin-left: auto;
